@@ -1,0 +1,21 @@
+.Vis {
+    background-color: #acbbda;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    color: white;
+    border: solid #141515;
+    margin-bottom: 2px;
+    padding: 5px;
+    /* min-height: 40vh; */
+    }
+
+
+.ImgCarousel {
+    border: thin solid #dfebeb;
+    height: auto;
+    max-height: 260px;
+    max-width: 100%;
+}
+

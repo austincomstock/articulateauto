@@ -1,0 +1,24 @@
+
+.Topz {
+    /* display: flex;
+    flex-direction: column; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #637494;
+    border: solid #141515;
+    margin-bottom: 2px;
+    color: white;
+}
+
+
+.Imgz {
+    justify-self: end;
+    margin: 5px;
+    border-radius: 180px;
+    height: 100px;
+    width: 100px;
+}
+
+.AA {
+    margin: 5px 5px 5px 15px;
+}

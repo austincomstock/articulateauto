@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css"; //Bootstrap for Carousel https://react-bootstrap.github.io/components/carousel/
+import { Top } from "./components/Top/Top";
+import { Navigation } from "./components/Navigation/Navigation";
+import { About } from "./components/About/About";
+import { VisualMedia } from "./components/VisualMedia/VisualMedia";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Top />
+      <Navigation />
+      <VisualMedia />
+      <About />
     </div>
   );
 }
