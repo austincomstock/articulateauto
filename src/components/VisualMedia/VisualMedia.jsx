@@ -1,6 +1,6 @@
 import React from "react";
 import "./VisualMedia.css";
-import Carousel from "react-bootstrap/Carousel";
+import Carousel from "react-bootstrap/Carousel"; //Bootstrap for Carousel https://react-bootstrap.github.io/components/carousel/
 import NewChevy from "../Images/imgNewChevy.jpg";
 import OldChevy from "../Images/imgOldChevy.jpg";
 import NewGMC from "../Images/imgNewGMC.jpg";
