@@ -12,28 +12,22 @@ export const About = () => {
       <h3 className="AboutH3">Automotive Upgrades</h3>
       <ul className="AboutUL">
         <li className="AboutLI">
-          <MdSecurity />
-          Interior & Exterior Protection
+          <MdSecurity /> Interior & Exterior Protection
         </li>
         <li className="AboutLI">
-          <GiFogLight />
-          Lighting
+          <GiFogLight /> Lighting
         </li>
         <li className="AboutLI">
-          <GiSpring />
-          Suspension & Lift Kits
+          <GiSpring /> Suspension & Lift Kits
         </li>
         <li className="AboutLI">
-          <GiTowTruck />
-          Winches & Recovery
+          <GiTowTruck /> Winches & Recovery
         </li>
         <li className="AboutLI">
-          <TbEngine />
-          Performance
+          <TbEngine /> Performance
         </li>
         <li className="AboutLI">
-          <TbSitemap />
-          All Products
+          <TbSitemap /> All Products
         </li>
       </ul>
     </div>
