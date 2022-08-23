@@ -1,10 +1,8 @@
 .Search1 {
     display: flex;
     flex-direction: column;
-    /* align-self: flex-end; */
     background-color: #545961;
     border: thin solid #141515;
-    /* margin-bottom: 2px; */
     margin: 2px;
 }
 

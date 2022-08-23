@@ -2,7 +2,6 @@
     background-color: #a2aab9;
     border: solid #141515;
     margin-bottom: 2px;
-    /* min-height: 40vh; */
 }
 
 
@@ -14,15 +13,13 @@
     flex-wrap: wrap;
     justify-content: space-between;
     list-style: none;
-    margin: 5px;
+    margin: 3px;
     color: white;
-    padding: 30px;
-    /* border: solid #141515; */
+    padding: 20px;
     
 }
 
 .NavyLI {
     border-left: 1px solid black;
-    /* border: 1px solid black; */
-    padding: 10px;
+    padding: 5px;
 }
