@@ -1,0 +1,16 @@
+.Bottom1 {
+    background-color: #7498de;
+    color: white;
+    border: solid #141515;
+    margin-bottom: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.BottomH3 {
+    margin: 5px 5px 5px 15px;
+}
+
+.BottomH5 {
+  padding-left: 5px;
+}
