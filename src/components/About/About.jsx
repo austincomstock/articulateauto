@@ -9,7 +9,7 @@ import { TbEngine, TbSitemap } from "react-icons/tb";
 export const About = () => {
   return (
     <div className="About1">
-      <h3 className="AboutAU">Automotive Upgrades</h3>
+      <h3 className="AboutH3">Automotive Upgrades</h3>
       <ul className="AboutUL">
         <li className="AboutLI">
           <MdSecurity />
