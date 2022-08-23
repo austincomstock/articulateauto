@@ -18,15 +18,6 @@ function App() {
       <About />
       <Links />
       <Bottom />
-      {/* <footer>
-        <h1>Contact & Connect With Us</h1>
-        <h3>Contact</h3>
-        <p>Phone: 800-000-000</p>
-        <p>Email: articuateauto@mail.placeholder</p>
-        <h3>Connect</h3>
-        <p>Facebook, Instagram</p>
-        <p>Instagram</p>
-      </footer> */}
     </div>
   );
 }
