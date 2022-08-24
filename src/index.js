@@ -5,6 +5,7 @@ import "./index.css";
 import App from "./App";
 import { Top } from "./components/Top/Top";
 import { About } from "./components/About/About";
+import { Protection } from "./pages/Protection/Protection";
 import reportWebVitals from "./reportWebVitals";
 
 // REACT-ROUTER DOCUMENTATION https://github.com/remix-run/react-router/blob/main/docs/getting-started/tutorial.md
@@ -16,6 +17,7 @@ root.render(
         <Route path="/" element={<App />}>
           <Route path="top" element={<Top />} />
           <Route path="about" element={<About />} />
+          <Route path="protection" element={<Protection />} />
         </Route>
       </Routes>
     </React.StrictMode>
