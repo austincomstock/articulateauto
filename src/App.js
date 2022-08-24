@@ -6,8 +6,8 @@ import { Top } from "./components/Top/Top";
 import { Navigation } from "./components/Navigation/Navigation";
 import { VisualMedia } from "./components/VisualMedia/VisualMedia";
 import { About } from "./components/About/About";
+import { Contact } from "./components/Contact/Contact";
 import { Links } from "./components/Links/Links";
-import { Bottom } from "./components/Bottom/Bottom";
 
 function App() {
   return (
@@ -16,8 +16,8 @@ function App() {
       <Navigation />
       <VisualMedia />
       <About />
+      <Contact />
       <Links />
-      <Bottom />
     </div>
   );
 }
