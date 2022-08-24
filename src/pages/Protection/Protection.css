@@ -1,0 +1,16 @@
+.Protection1 {
+    /* border: solid orange; */
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+
+}
+
+.ProImg1 {
+    border: thin solid #dfebeb;
+    margin-bottom: 5px;
+    height: auto;
+    max-height: 260px;
+    max-width: 100%;
+}
