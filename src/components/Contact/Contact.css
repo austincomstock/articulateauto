@@ -1,4 +1,4 @@
-.Bottom1 {
+.Contact1 {
     background-color: #7498de;
     color: white;
     border: solid #141515;
@@ -7,14 +7,14 @@
     flex-direction: column;
 }
 
-.BottomH3 {
+.ContactH3 {
     margin: 5px 5px 5px 15px;
 }
 
-.BottomH5 {
+.ContactH5 {
   padding-left: 5px;
 }
 
-.BottomUL {
+.ContactUL {
   list-style: none;
 }
