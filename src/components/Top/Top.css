@@ -1,5 +1,5 @@
 
-.Topz {
+.Top1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     background-color: #637494;
@@ -9,7 +9,7 @@
 }
 
 
-.Imgz {
+.TopImg {
     justify-self: end;
     margin: 5px;
     border-radius: 180px;
@@ -17,6 +17,6 @@
     width: 100px;
 }
 
-.AA {
+.TopH1 {
     margin: 5px 5px 5px 15px;
 }

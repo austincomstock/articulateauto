@@ -5,9 +5,9 @@ import { Search } from "../Search/Search";
 
 export const Top = () => {
   return (
-    <div className="Topz">
-      <h1 className="AA">Articulate Auto</h1>
-      <img className="Imgz" src={ArtLogo} alt="Articulate Logo" />
+    <div className="Top1">
+      <h1 className="TopH1">Articulate Auto</h1>
+      <img className="TopImg" src={ArtLogo} alt="Articulate Logo" />
       <Search />
     </div>
   );
