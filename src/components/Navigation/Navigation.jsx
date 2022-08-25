@@ -1,28 +1,24 @@
 import React from "react";
 import "./Navigation.css";
-import { BsTruck, BsCart3 } from "react-icons/bs";
+import { BsCart3 } from "react-icons/bs";
 import { TbSitemap } from "react-icons/tb";
 import { VscAccount } from "react-icons/vsc";
-import { VehicleDropdown } from "../Dropdown/VehicleDropdown";
 import { ProductsDropdown } from "../Dropdown/ProductsDropdown";
 import { AccountDropdown } from "../Dropdown/AccountDropdown";
 import { CartDropdown } from "../Dropdown/CartDropdown";
 
 export const Navigation = () => {
   return (
-    <div className="Navy">
+    <div className="Nav1">
       {/* LIST */}
-      <ul className="NavyUL">
-        <li className="NavyLI">
-          <VehicleDropdown /> <BsTruck />
-        </li>
-        <li className="NavyLI">
+      <ul className="NavUL">
+        <li className="NavLI">
           <ProductsDropdown /> <TbSitemap />
         </li>
-        <li className="NavyLI">
+        <li className="NavLI">
           <AccountDropdown /> <VscAccount />
         </li>
-        <li className="NavyLI">
+        <li className="NavLI">
           <CartDropdown /> <BsCart3 />
         </li>
       </ul>

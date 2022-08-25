@@ -1,17 +1,17 @@
-.Navy {
+.Nav1 {
     background-color: #a2aab9;
     border: solid #141515;
     margin-bottom: 2px;
 }
 
 
-.NavyUL {
+.NavUL {
     /* display: grid;
     grid-template-columns: repeat(4, 1fr); */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     list-style: none;
     margin: 3px;
     color: white;
@@ -19,7 +19,7 @@
     
 }
 
-.NavyLI {
-    border-left: 1px solid black;
+.NavLI {
+    border-left: thin solid #141515;
     padding: 5px;
 }
