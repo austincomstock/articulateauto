@@ -8,7 +8,7 @@
 
 .Linky {
     margin: 5px;
-    border-left: solid #141515;
+    border-left: thin solid #141515;
     padding: 2px;
     color: white;
 }
