@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 export const AccountDropdown = () => {
   const accountOptions = [
+    { label: "--My Account--", value: "--My Account--" },
     { label: "Login", value: "Login" },
     { label: "Register", value: "Register" },
     { label: "Settings", value: "Settings" },
@@ -20,7 +21,6 @@ export const AccountDropdown = () => {
         <select value={value} onChange={handleChange}>
           {accountOptions.map((accountOptions, index) => (
             <>
-              <option>--My Account--</option>
               <option key={index} value={accountOptions.value}>
                 {accountOptions.label}
               </option>

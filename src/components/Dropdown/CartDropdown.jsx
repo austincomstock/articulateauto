@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 export const CartDropdown = () => {
   const cartOptions = [
+    { label: "--Shopping Cart--", value: "--Shopping Cart--" },
     { label: "ViewCart", value: "ViewCart" },
     { label: "Checkout", value: "Checkout" },
   ];
@@ -19,7 +20,6 @@ export const CartDropdown = () => {
         <select value={value} onChange={handleChange}>
           {cartOptions.map((cartOptions, index) => (
             <>
-              <option>--Shopping Cart--</option>
               <option key={index} value={cartOptions.value}>
                 {cartOptions.label}
               </option>

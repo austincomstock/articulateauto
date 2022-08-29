@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 export const ProductsDropdown = () => {
   const productOptions = [
+    { label: "--All Products--", value: "--All Products--" },
     { label: "Floormats", value: "Floormats" },
     { label: "Windsheild Wipers", value: "Windsheild Wipers" },
     { label: "Tires", value: "Tires" },
@@ -20,7 +21,6 @@ export const ProductsDropdown = () => {
         <select value={value} onChange={handleChange}>
           {productOptions.map((productOptions, index) => (
             <>
-              <option>--All Products--</option>
               <option key={index} value={productOptions.value}>
                 {productOptions.label}
               </option>
