@@ -1,0 +1,29 @@
+.Toyota1 {
+    background-color: #58626c;
+    padding: 2px;
+    color: white;
+    border: solid #141515;
+    margin-bottom: 2px;
+}
+
+.ToyH3 {
+    margin: 15px;
+}
+
+.Toyota2 {
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.ToyImg1 { 
+    border: thin solid #dfebeb;
+    margin: 5px;
+    height: auto;
+    max-height: 260px;
+    width: auto;
+    max-width: 300px;
+}
