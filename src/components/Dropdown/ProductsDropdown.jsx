@@ -3,9 +3,12 @@ import React, { useState } from "react";
 export const ProductsDropdown = () => {
   const productOptions = [
     { label: "--All Products--", value: "--All Products--" },
-    { label: "Floormats", value: "Floormats" },
-    { label: "Windsheild Wipers", value: "Windsheild Wipers" },
-    { label: "Tires", value: "Tires" },
+    { label: "Protection", value: "Protection" },
+    { label: "Lighting", value: "Lighting" },
+    { label: "Suspension", value: "Suspension" },
+    { label: "Lift Kits", value: "Lift Kits" },
+    { label: "Winches & Recovery", value: "Winches & Recovery" },
+    { label: "Performance", value: "Performance" },
   ];
 
   const [value, setValue] = useState("");
@@ -17,7 +20,6 @@ export const ProductsDropdown = () => {
   return (
     <div className="PDrop">
       <label>
-        {/* All Products: */}
         <select value={value} onChange={handleChange}>
           {productOptions.map((productOptions, index) => (
             <>
