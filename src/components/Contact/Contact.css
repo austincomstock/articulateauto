@@ -3,18 +3,27 @@
     color: white;
     border: solid #141515;
     margin-bottom: 2px;
-    display: flex;
-    flex-direction: column;
+}
+
+.Contact2 {
+  /* border: solid pink; */
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
 }
 
 .ContactH3 {
-    margin: 5px 5px 5px 15px;
+    margin: 5px;
+    text-align: center;
 }
 
 .ContactH5 {
   padding-left: 5px;
 }
 
-.ContactUL {
+.ContactConnectUL {
   list-style: none;
 }
