@@ -11,9 +11,19 @@ export const ShopVehicle = () => {
       <h3 className="ShopVehicleH3">
         Shop By Vehicle <BsTruck />
       </h3>
-      <ShopVehicleMake />
-      <ShopVehicleModel />
-      <ShopVehicleYear />
+      <div className="ShopVehicle2">
+        <ShopVehicleMake />
+        <ShopVehicleModel />
+        <ShopVehicleYear />
+      </div>
+      {/* BUTTON */}
+      {/* <button id="shopVehicleBtn" type="button">
+        Shop
+      </button> */}
+      {/* FORM */}
+      {/* <form action="https://articulateauto.herokuapp.com/toyota">
+        <input type="submit" value="Go to Toyota" />
+      </form> */}
     </div>
   );
 };
