@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 export const ProductsDropdown = () => {
   const productOptions = [
-    { label: "--All Products--", value: "--All Products--" },
+    { label: "All Products", value: "All Products" },
     { label: "Protection", value: "Protection" },
     { label: "Lighting", value: "Lighting" },
     { label: "Suspension", value: "Suspension" },
@@ -30,7 +30,6 @@ export const ProductsDropdown = () => {
           ))}
         </select>
       </label>
-      {/* <p>Product is {value}!</p> */}
       <p>{value}</p>
     </div>
   );

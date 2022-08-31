@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 export const CartDropdown = () => {
   const cartOptions = [
-    { label: "--Shopping Cart--", value: "--Shopping Cart--" },
+    { label: "Shopping Cart", value: "Shopping Cart" },
     { label: "View Cart", value: "View Cart" },
     { label: "Checkout", value: "Checkout" },
   ];
