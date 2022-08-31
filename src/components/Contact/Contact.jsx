@@ -15,7 +15,15 @@ export const Contact = () => {
             <BsFacebook /> Facebook
           </li>
           <li>
-            <BsInstagram /> Instagram
+            <BsInstagram />{" "}
+            <a
+              href="https://www.instagram.com/articulate_auto/"
+              target="_blank"
+              rel="noreferrer"
+              className="HLink"
+            >
+              Instagram
+            </a>
           </li>
         </ul>
         <ul className="ContactConnectUL">
