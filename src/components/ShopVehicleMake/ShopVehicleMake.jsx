@@ -1,6 +1,4 @@
 import { React, useState } from "react";
-// import { Link } from "react-router-dom"; // REACT-ROUTER DOCUMENTATION https://github.com/remix-run/react-router/blob/main/docs/getting-started/tutorial.md
-// import { Toyota } from "./../../pages/Toyota/Toyota";
 
 export const ShopVehicleMake = () => {
   const vehicleMake = [
@@ -22,9 +20,6 @@ export const ShopVehicleMake = () => {
 
   return (
     <div className="ShopVehicleMake1">
-      {/* FORM */}
-      {/* <form action="" onSubmit={""}> */}
-      {/* <label> */}
       <select value={value} onChange={handleChange}>
         {vehicleMake.map((vehicleMake, index) => (
           <>
@@ -34,12 +29,7 @@ export const ShopVehicleMake = () => {
           </>
         ))}
       </select>
-      {/* </label> */}
       <p>{value}</p>
-      {/* Test Area */}
-      {/* if ({value === "Toyota"}) {<Toyota />} */}
-      {/* <p onClick={<Toyota />}>{value}</p> */}
-      {/* </form> */}
     </div>
   );
 };
