@@ -2,7 +2,7 @@ import { React, useState } from "react";
 
 export const ShopVehicleYear = () => {
   const vehicleYear = [
-    { label: "--Select Year--", value: "--Select Year--" },
+    { label: "Select Year", value: "Select Year" },
     { label: "1990", value: "1990" },
     { label: "1991", value: "1991" },
     { label: "1992", value: "1992" },

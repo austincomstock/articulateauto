@@ -2,7 +2,7 @@ import { React, useState } from "react";
 
 export const ShopVehicleModel = () => {
   const vehicleModel = [
-    { label: "--Select Model--", value: "--Select Model--" },
+    { label: "Select Model", value: "Select Model" },
     { label: "Tacoma", value: "Tacoma" },
     { label: "F-150", value: "F-150" },
     { label: "TRX 1500", value: "TRX 1500" },
