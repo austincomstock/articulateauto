@@ -21,7 +21,7 @@ export const ShopVehicleMake = () => {
   // TESTING
   if (value === "Toyota") {
     alert("Toyota!!!!! Check the console log...");
-    console.log("The console.log for Toyota is working!");
+    console.log("The console.log for Select Make 'Toyota' is working!");
   }
 
   // TESTING 2
