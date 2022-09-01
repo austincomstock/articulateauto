@@ -6,9 +6,9 @@ import { Top } from "./components/Top/Top";
 import { Navigation } from "./components/Navigation/Navigation";
 import { VisualMedia } from "./components/VisualMedia/VisualMedia";
 import { ShopVehicle } from "./components/ShopVehicle/ShopVehicle";
+import { Links } from "./components/Links/Links";
 import { About } from "./components/About/About";
 import { Contact } from "./components/Contact/Contact";
-import { Links } from "./components/Links/Links";
 
 function App() {
   return (
@@ -17,9 +17,9 @@ function App() {
       <Navigation />
       <VisualMedia />
       <ShopVehicle />
+      <Links />
       <About />
       <Contact />
-      <Links />
     </div>
   );
 }
