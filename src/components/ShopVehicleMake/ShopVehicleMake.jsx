@@ -18,6 +18,19 @@ export const ShopVehicleMake = () => {
     setValue(event.target.value);
   };
 
+  // TESTING
+  if (value === "Toyota") {
+    alert("Toyota!!!!! Check the console log...");
+    console.log("The console.log for Toyota is working!");
+  }
+
+  // TESTING 2
+  // if (value === "Toyota") {
+  //   alert("Toyota!!!!!");
+  // } else {
+  //   alert(value);
+  // }
+
   return (
     <div className="ShopVehicleMake1">
       <select value={value} onChange={handleChange}>
@@ -30,6 +43,7 @@ export const ShopVehicleMake = () => {
         ))}
       </select>
       <p>{value}</p>
+      {/* <p>{alert(value)}</p> */}
     </div>
   );
 };
