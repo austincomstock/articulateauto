@@ -31,7 +31,7 @@ export const Contact = () => {
             <BsTelephone /> 800-000-000
           </li>
           <li>
-            <MdOutlineMail /> articulateauto@mail
+            <MdOutlineMail /> info.articulateauto@gmail.com
           </li>
         </ul>
       </div>
