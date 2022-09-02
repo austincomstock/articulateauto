@@ -1,35 +1,27 @@
 .Contact1 {
-    background-color: #7498de;
-    color: white;
-    border: solid #141515;
-    margin-bottom: 2px;
-}
-
-.HLink { 
+  background-color: #7498de;
   color: white;
-}
-
-.Contact2 {
-  /* border: solid pink; */
-  padding-top: 10px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  /* justify-content: space-around; */
-  align-items: center;
-  align-content: center;
-  
+  border: solid #141515;
+  margin-bottom: 2px;
 }
 
 .ContactH3 {
-    margin: 5px;
-    text-align: center;
-}
-
-.ContactH5 {
-  padding-left: 5px;
+  margin: 5px;
+  text-align: center;
 }
 
 .ContactConnectUL {
+  /* border: solid pink; */
+  padding: 5px;
   list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.HLink {
+  color: white;
 }
