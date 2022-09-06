@@ -7,6 +7,7 @@ import { Top } from "./components/Top/Top";
 import { About } from "./components/About/About";
 import { Protection } from "./pages/Protection/Protection";
 import { Toyota } from "./pages/Toyota/Toyota";
+import { Ford } from "./pages/Ford/Ford";
 import reportWebVitals from "./reportWebVitals";
 
 // REACT-ROUTER DOCUMENTATION https://github.com/remix-run/react-router/blob/main/docs/getting-started/tutorial.md
@@ -20,6 +21,7 @@ root.render(
           <Route path="about" element={<About />} />
           <Route path="protection" element={<Protection />} />
           <Route path="toyota" element={<Toyota />} />
+          <Route path="ford" element={<Ford />} />
         </Route>
       </Routes>
     </React.StrictMode>

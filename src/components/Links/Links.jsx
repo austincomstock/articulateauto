@@ -21,6 +21,9 @@ export const Links = () => {
       <Link to="/toyota" className="Linky">
         Toyota
       </Link>
+      <Link to="/ford" className="Linky">
+        Ford
+      </Link>
       <Outlet />
     </div>
   );
