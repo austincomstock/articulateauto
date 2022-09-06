@@ -1,0 +1,40 @@
+.Chevy1 {
+    background-color: #3b6084;
+    padding: 2px;
+    color: white;
+    border: solid #141515;
+    margin-bottom: 2px;
+}
+
+.ChevyLink {
+    color: white;
+}
+
+.ChevyH3 {
+    margin: 15px;
+    text-align: center;
+}
+
+.ChevyUL {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.ChevyLI {
+    margin: 10px;
+}
+
+
+.ChevyImg1 {
+    border: thin solid #dfebeb;
+    margin: 5px;
+    height: auto;
+    max-height: 260px;
+    width: auto;
+    max-width: 300px;
+}
