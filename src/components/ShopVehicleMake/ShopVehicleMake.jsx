@@ -1,4 +1,5 @@
 import { React, useState } from "react";
+import { Link } from "react-router-dom"; // REACT-ROUTER DOCUMENTATION https://github.com/remix-run/react-router/blob/main/docs/getting-started/tutorial.md
 
 export const ShopVehicleMake = () => {
   const vehicleMake = [
@@ -18,18 +19,19 @@ export const ShopVehicleMake = () => {
     setValue(event.target.value);
   };
 
-  // TESTING
-  if (value === "Toyota") {
-    alert("Toyota!!!!! Check the console log...");
-    console.log("The console.log for Select Make 'Toyota' is working!");
+  // valueIsToyota function
+  function valueIsToyota() {
+    if (value === "Toyota") {
+      // console.log("The console.log for Select Make 'Toyota' is working!");
+      return (
+        <Link to="/toyota" className="Linky">
+          Toyota
+        </Link>
+      );
+    } else {
+      return value;
+    }
   }
-
-  // TESTING 2
-  // if (value === "Toyota") {
-  //   alert("Toyota!!!!!");
-  // } else {
-  //   alert(value);
-  // }
 
   return (
     <div className="ShopVehicleMake1">
@@ -42,8 +44,8 @@ export const ShopVehicleMake = () => {
           </>
         ))}
       </select>
-      <p>{value}</p>
-      {/* <p>{alert(value)}</p> */}
+      {/* <p>{value}</p> */}
+      <p>{valueIsToyota()}</p>
     </div>
   );
 };
