@@ -5,7 +5,7 @@ import { SiToyota } from "react-icons/si";
 
 // IMAGES
 import Taco1Img from "./imgTacoma.jpg";
-import Runner1Img from "./img4runner.jpg";
+import Runner1Img from "./img4runner1.jpg";
 import Tundra1Img from "./imgTundra.jpg";
 import FJ1Img from "./imgFJ.jpg";
 
@@ -20,10 +20,12 @@ export const Toyota = () => {
         Toyota <SiToyota />
       </h3>
       <ul className="ToyotaUL">
-        <li className="ToyotaLI">
-          Tacoma
-          <img className="ToyImg1" src={Taco1Img} alt="Toyota Tacoma" />
-        </li>
+        <Link to="/tacoma" className="ToyLink">
+          <li className="ToyotaLI">
+            Tacoma
+            <img className="ToyImg1" src={Taco1Img} alt="Toyota Tacoma" />
+          </li>
+        </Link>
         <li className="ToyotaLI">
           4-Runner
           <img className="ToyImg1" src={Runner1Img} alt="Toyota 4-Runner" />
