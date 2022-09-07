@@ -3,13 +3,18 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom"; // REACT-ROUTER DOCUMENTATION https://github.com/remix-run/react-router/blob/main/docs/getting-started/tutorial.md
 import "./index.css";
 import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+
+//COMPONENTS
 import { Top } from "./components/Top/Top";
 import { About } from "./components/About/About";
+
+//PAGES
 import { Protection } from "./pages/Protection/Protection";
 import { Toyota } from "./pages/Toyota/Toyota";
+import { Tacoma } from "./pages/Toyota/Tacoma/Tacoma";
 import { Ford } from "./pages/Ford/Ford";
 import { Cheverolet } from "./pages/Chevrolet/Cheverolet";
-import reportWebVitals from "./reportWebVitals";
 
 // REACT-ROUTER DOCUMENTATION https://github.com/remix-run/react-router/blob/main/docs/getting-started/tutorial.md
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -22,6 +27,7 @@ root.render(
           <Route path="about" element={<About />} />
           <Route path="protection" element={<Protection />} />
           <Route path="toyota" element={<Toyota />} />
+          <Route path="tacoma" element={<Tacoma />} />
           <Route path="ford" element={<Ford />} />
           <Route path="chevrolet" element={<Cheverolet />} />
         </Route>
