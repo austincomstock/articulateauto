@@ -1,0 +1,53 @@
+.Tacoma1 {
+    background-color: #6c6f72;
+    color: white;
+    border: solid #141515;
+    padding: 2px;
+    margin-bottom: 2px;
+}
+
+.Link1 {
+    color: white;
+}
+
+.TacomaH3 {
+    margin: 5px;
+    text-align: center;
+}
+
+
+.ProductCategoryContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 15px;
+}
+
+
+.ProductCategory {
+    margin: 15px;
+    border: solid thin #141515;
+    background-color: #404142;
+    text-align: center;
+    height: 200px;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+
+
+.ProductCategoryImg {
+    border: thin solid #dfebeb;
+    margin: 5px;
+    height: auto;
+    width: auto;
+    max-height: 150px;
+    max-width: 200px;
+}
