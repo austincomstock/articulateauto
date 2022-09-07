@@ -9,12 +9,12 @@ export const Links = () => {
       <Link to="/" className="Linky">
         App
       </Link>
-      <Link to="/top" className="Linky">
+      {/* <Link to="/top" className="Linky">
         Top
       </Link>
       <Link to="/about" className="Linky">
         About
-      </Link>
+      </Link> */}
       <Link to="/protection" className="Linky">
         Interior & Exterior Protection
       </Link>
