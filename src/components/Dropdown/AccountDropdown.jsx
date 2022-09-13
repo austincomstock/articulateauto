@@ -3,7 +3,7 @@ import React, { useState } from "react";
 export const AccountDropdown = () => {
   const accountOptions = [
     { label: "My Account", value: "My Account" },
-    { label: "Login", value: "Login" },
+    { label: "Sign In", value: "Sign In" },
     { label: "Register", value: "Register" },
     { label: "Settings", value: "Settings" },
   ];
