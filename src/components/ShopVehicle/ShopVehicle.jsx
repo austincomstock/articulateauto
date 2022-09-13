@@ -1,6 +1,8 @@
 import React from "react";
 import "./ShopVehicle.css";
 import { BsTruck } from "react-icons/bs";
+
+// COMPONENTS
 import { ShopVehicleMake } from "../ShopVehicleMake/ShopVehicleMake";
 import { ShopVehicleModel } from "../ShopVehicleModel/ShopVehicleModel";
 import { ShopVehicleYear } from "../ShopVehicleYear/ShopVehicleYear";
@@ -16,14 +18,6 @@ export const ShopVehicle = () => {
         <ShopVehicleModel />
         <ShopVehicleYear />
       </div>
-      {/* BUTTON */}
-      {/* <button id="shopVehicleBtn" type="button">
-        Shop
-      </button> */}
-      {/* FORM */}
-      {/* <form action="https://articulateauto.herokuapp.com/toyota">
-        <input type="submit" value="Go to Toyota" />
-      </form> */}
     </div>
   );
 };
