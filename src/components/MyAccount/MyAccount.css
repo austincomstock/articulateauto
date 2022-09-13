@@ -1,0 +1,19 @@
+#MyAccount1 {
+    background-color: #4f5e78;
+    color: white;
+    border: solid #141515;
+    margin-bottom: 2px;
+}
+
+.MyAccountH3 {
+    margin: 5px;
+    text-align: center;
+}
+
+#MyAccount2 {
+    display: flex;
+    flex: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
