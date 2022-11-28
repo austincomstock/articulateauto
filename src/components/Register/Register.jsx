@@ -8,36 +8,21 @@ export const Register = () => {
       {/* FORM */}
       <form id="RegisterForm" method="GET">
         <label className="RegisterLabel">
-          First Name: <input type="text" name="firstname" />
+          First Name: <input type="text" name="first name" />
         </label>
         <label className="RegisterLabel">
-          Last Name: <input type="text" name="lastname" />
+          Last Name: <input type="text" name="last name" />
         </label>
         <label className="RegisterLabel">
           Email: <input type="email" name="email" required />
         </label>
         <label className="RegisterLabel">
-          Password: <input type="password" name="password" minlength="5" />
+          Password: <input type="password" name="password" minLength="5" />
         </label>
-        {/* <label className="RegisterLabel">
-          Birthday: <input type="date" name="birthday" />
-        </label> */}
-        {/* <label className="RegisterLabel">
-          Gender: <input type="radio" name="gender" value="male" />
-          Male
-          <input type="radio" name="gender" value="female" />
-          Female
-          <input type="radio" name="gender" value="other" />
-          Other
-        </label> */}
-        {/* <label className="RegisterLabel">
-          Pets: <input type="checkbox" name="cat" /> Cat
-          <input type="checkbox" name="dog" /> Dog
-        </label> */}
         <label className="RegisterLabel">
           Vehicle:{" "}
           <select name="vehicle">
-            <option value="SelectVehicle" name="selectvehicle">
+            <option value="SelectVehicle" name="select vehicle">
               Select Vehicle
             </option>
             <option value="Toyota" name="toyota">
