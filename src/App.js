@@ -9,6 +9,7 @@ import { ShopVehicle } from "./components/ShopVehicle/ShopVehicle";
 import { Links } from "./components/Links/Links";
 import { About } from "./components/About/About";
 import { Contact } from "./components/Contact/Contact";
+import { MyAccount } from "./components/MyAccount/MyAccount";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Links />
       <About />
       <Contact />
+      <MyAccount />
     </div>
   );
 }
