@@ -8,16 +8,16 @@ export const SignIn = () => {
       {/* FORM */}
       <form id="SignInForm" method="GET">
         <label className="SignInLabel">
-          First Name: <input type="text" name="firstname" />
+          First Name: <input type="text" name="first name" />
         </label>
         <label className="SignInLabel">
-          Last Name: <input type="text" name="lastname" />
+          Last Name: <input type="text" name="last name" />
         </label>
         <label className="SignInLabel">
           Email: <input type="email" name="email" required />
         </label>
         <label className="SignInLabel">
-          Password: <input type="password" name="password" minlength="5" />
+          Password: <input type="password" name="password" minLength="5" />
         </label>
         <label className="SignInLabel">
           <input type="submit" value="Sign In" />
