@@ -10,7 +10,7 @@ import SilveradoHD1Img from "./imgSilveradoHD.jpg";
 import Tahoe1Img from "./imgTahoe.jpg";
 // import Suburban1Img from
 
-export const Cheverolet = () => {
+export const Chevrolet = () => {
   return (
     <div className="Chevy1">
       <Link to="/" className="ChevyLink">

@@ -14,7 +14,7 @@ import { Protection } from "./pages/Protection/Protection";
 import { Toyota } from "./pages/Toyota/Toyota";
 import { Tacoma } from "./pages/Toyota/Tacoma/Tacoma";
 import { Ford } from "./pages/Ford/Ford";
-import { Cheverolet } from "./pages/Chevrolet/Cheverolet";
+import { Chevrolet } from "./pages/Chevrolet/Chevrolet";
 
 // REACT-ROUTER DOCUMENTATION https://github.com/remix-run/react-router/blob/main/docs/getting-started/tutorial.md
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -29,7 +29,7 @@ root.render(
           <Route path="toyota" element={<Toyota />} />
           <Route path="tacoma" element={<Tacoma />} />
           <Route path="ford" element={<Ford />} />
-          <Route path="chevrolet" element={<Cheverolet />} />
+          <Route path="chevrolet" element={<Chevrolet />} />
         </Route>
       </Routes>
     </React.StrictMode>
