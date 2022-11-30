@@ -21,7 +21,7 @@ export const Search = () => {
       <input
         className="SearchInput"
         type="text"
-        placeholder="Search here"
+        placeholder="search here"
         onChange={(e) => {
           setSearchInput(e.target.value);
         }}
