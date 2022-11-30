@@ -32,10 +32,24 @@ export const Contact = () => {
           </a>
         </li>
         <li>
-          <BsTelephone /> 800-000-000
+          <a
+            href="tel:800-000-000"
+            target="_blank"
+            rel="noreferrer"
+            className="HLink"
+          >
+            <BsTelephone /> 800-000-000
+          </a>
         </li>
         <li>
-          <MdOutlineMail /> info.articulateauto@gmail.com
+          <a
+            href="mailto:info.articulateauto@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+            className="HLink"
+          >
+            <MdOutlineMail /> info.articulateauto@gmail.com
+          </a>
         </li>
       </ul>
     </div>
