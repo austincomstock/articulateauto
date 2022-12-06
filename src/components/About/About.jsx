@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import { Link, Outlet } from "react-router-dom"; // REACT-ROUTER DOCUMENTATION https://github.com/remix-run/react-router/blob/main/docs/getting-started/tutorial.md
 
 // REACT-ICONS IMPORTS
 import { MdSecurity } from "react-icons/md";
@@ -12,7 +13,29 @@ export const About = () => {
       <h3 className="AboutH3">Automotive Upgrades</h3>
       <ul className="AboutUL">
         <li className="AboutLI">
-          <MdSecurity /> Interior & Exterior Protection
+          <Link to="/" className="Linky">
+            Home
+          </Link>
+        </li>
+        <li className="AboutLI">
+          <Link to="/protection">
+            <MdSecurity /> Interior & Exterior Protection
+          </Link>
+        </li>
+        <li className="AboutLI">
+          <Link to="/toyota" className="Linky">
+            Toyota
+          </Link>
+        </li>
+        <li className="AboutLI">
+          <Link to="/ford" className="Linky">
+            Ford
+          </Link>
+        </li>
+        <li className="AboutLI">
+          <Link to="/chevrolet" className="Linky">
+            Chevrolet
+          </Link>
         </li>
         <li className="AboutLI">
           <GiFogLight /> Lighting
@@ -30,6 +53,7 @@ export const About = () => {
           <TbSitemap /> All Products
         </li>
       </ul>
+      <Outlet />
     </div>
   );
 };
