@@ -1,6 +1,6 @@
 .About1 {
     background-color: #404e6a;
-    color: white;
+    color: #fff;
     border: solid #141515;
     margin-bottom: 2px;
 }
@@ -23,8 +23,10 @@
     margin: 2px;
     padding: 5px;
     list-style: none;
-    /* width: 200px;
-    height: 200px; */
+}
+
+.AboutLink {
+    color: #fff;
 }
 
 .AboutH3 {

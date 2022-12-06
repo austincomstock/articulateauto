@@ -16,27 +16,27 @@ export const About = () => {
       <h3 className="AboutH3">Automotive Upgrades</h3>
       <ul className="AboutUL">
         <li className="AboutLI">
-          <Link to="/" className="Linky">
+          <Link to="/" className="AboutLink">
             Home
           </Link>
         </li>
         <li className="AboutLI">
-          <Link to="/protection">
+          <Link to="/protection" className="AboutLink">
             <MdSecurity /> Interior & Exterior Protection
           </Link>
         </li>
         <li className="AboutLI">
-          <Link to="/toyota" className="Linky">
+          <Link to="/toyota" className="AboutLink">
             <SiToyota /> Toyota
           </Link>
         </li>
         <li className="AboutLI">
-          <Link to="/ford" className="Linky">
+          <Link to="/ford" className="AboutLink">
             <SiFord /> Ford
           </Link>
         </li>
         <li className="AboutLI">
-          <Link to="/chevrolet" className="Linky">
+          <Link to="/chevrolet" className="AboutLink">
             <SiChevrolet /> Chevrolet
           </Link>
         </li>
