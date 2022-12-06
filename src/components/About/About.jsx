@@ -4,6 +4,9 @@ import { Link, Outlet } from "react-router-dom"; // REACT-ROUTER DOCUMENTATION h
 
 // REACT-ICONS IMPORTS
 import { MdSecurity } from "react-icons/md";
+import { SiToyota } from "react-icons/si";
+import { SiFord } from "react-icons/si";
+import { SiChevrolet } from "react-icons/si";
 import { GiFogLight, GiSpring, GiTowTruck } from "react-icons/gi";
 import { TbEngine, TbSitemap } from "react-icons/tb";
 
@@ -24,17 +27,17 @@ export const About = () => {
         </li>
         <li className="AboutLI">
           <Link to="/toyota" className="Linky">
-            Toyota
+            <SiToyota /> Toyota
           </Link>
         </li>
         <li className="AboutLI">
           <Link to="/ford" className="Linky">
-            Ford
+            <SiFord /> Ford
           </Link>
         </li>
         <li className="AboutLI">
           <Link to="/chevrolet" className="Linky">
-            Chevrolet
+            <SiChevrolet /> Chevrolet
           </Link>
         </li>
         <li className="AboutLI">
