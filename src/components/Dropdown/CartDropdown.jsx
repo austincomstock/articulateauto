@@ -2,9 +2,9 @@ import React, { useState } from "react";
 
 export const CartDropdown = () => {
   const cartOptions = [
-    { label: "Shopping Cart", value: "Shopping Cart" },
-    { label: "View Cart", value: "View Cart" },
-    { label: "Checkout", value: "Checkout" },
+    { item: "Shopping Cart" },
+    { item: "View Cart" },
+    { item: "Checkout" },
   ];
 
   const [value, setValue] = useState("");
@@ -17,13 +17,15 @@ export const CartDropdown = () => {
     <div className="CDrop">
       <label>
         <select value={value} onChange={handleChange}>
-          {cartOptions.map((cartOptions, index) => (
-            <>
-              <option key={index} value={cartOptions.value}>
-                {cartOptions.label}
-              </option>
-            </>
-          ))}
+          {React.Children.toArray(
+            cartOptions.map((cartOptions, index) => (
+              <>
+                <option key={index} value={cartOptions.item}>
+                  {cartOptions.item}
+                </option>
+              </>
+            ))
+          )}
         </select>
       </label>
       <p>{value}</p>

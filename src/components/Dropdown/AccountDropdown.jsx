@@ -2,10 +2,10 @@ import React, { useState } from "react";
 
 export const AccountDropdown = () => {
   const accountOptions = [
-    { label: "My Account", value: "My Account" },
-    { label: "Sign In", value: "Sign In" },
-    { label: "Register", value: "Register" },
-    { label: "Settings", value: "Settings" },
+    { item: "My Account" },
+    { item: "Sign In" },
+    { item: "Register" },
+    { item: "Settings" },
   ];
 
   const [value, setValue] = useState("");
@@ -18,13 +18,15 @@ export const AccountDropdown = () => {
     <div className="ADrop">
       <label>
         <select value={value} onChange={handleChange}>
-          {accountOptions.map((accountOptions, index) => (
-            <>
-              <option key={index} value={accountOptions.value}>
-                {accountOptions.label}
-              </option>
-            </>
-          ))}
+          {React.Children.toArray(
+            accountOptions.map((accountOptions, index) => (
+              <>
+                <option key={index} value={accountOptions.item}>
+                  {accountOptions.item}
+                </option>
+              </>
+            ))
+          )}
         </select>
       </label>
       <p>{value}</p>
