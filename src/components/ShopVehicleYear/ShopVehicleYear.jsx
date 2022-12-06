@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import React, { useState } from "react";
 
 export const ShopVehicleYear = () => {
   const vehicleYear = [
@@ -56,13 +56,15 @@ export const ShopVehicleYear = () => {
             value={value}
             onChange={handleChange}
           >
-            {vehicleYear.map((vehicleYear, index) => (
-              <>
-                <option key={index} value={vehicleYear.value}>
-                  {vehicleYear.label}
-                </option>
-              </>
-            ))}
+            {React.Children.toArray(
+              vehicleYear.map((vehicleYear, index) => (
+                <>
+                  <option key={index} value={vehicleYear.value}>
+                    {vehicleYear.label}
+                  </option>
+                </>
+              ))
+            )}
           </select>
         </label>
         <p>{value}</p>

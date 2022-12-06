@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom"; // REACT-ROUTER DOCUMENTATION https://github.com/remix-run/react-router/blob/main/docs/getting-started/tutorial.md
 
 export const ShopVehicleMake = () => {
@@ -36,15 +36,17 @@ export const ShopVehicleMake = () => {
   return (
     <div className="ShopVehicleMake1">
       <select value={value} onChange={handleChange}>
-        {vehicleMake.map((vehicleMake, index) => (
-          <>
-            <option key={index} value={vehicleMake.value}>
-              {vehicleMake.label}
-            </option>
-          </>
-        ))}
+        {React.Children.toArray(
+          vehicleMake.map((vehicleMake, index) => (
+            <>
+              <option key={index} value={vehicleMake.value}>
+                {vehicleMake.label}
+              </option>
+            </>
+          ))
+        )}
       </select>
-      {/* <p>{value}</p> */}
+      <p>{value}</p>
       <p>{valueIsToyota()}</p>
     </div>
   );

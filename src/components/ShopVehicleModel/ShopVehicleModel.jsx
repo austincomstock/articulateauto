@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import React, { useState } from "react";
 
 export const ShopVehicleModel = () => {
   const vehicleModel = [
@@ -25,13 +25,15 @@ export const ShopVehicleModel = () => {
         <label>
           {/* Shop By Vehicle Model: */}
           <select value={value} onChange={handleChange}>
-            {vehicleModel.map((vehicleModel, index) => (
-              <>
-                <option key={index} value={vehicleModel.value}>
-                  {vehicleModel.label}
-                </option>
-              </>
-            ))}
+            {React.Children.toArray(
+              vehicleModel.map((vehicleModel, index) => (
+                <>
+                  <option key={index} value={vehicleModel.value}>
+                    {vehicleModel.label}
+                  </option>
+                </>
+              ))
+            )}
           </select>
         </label>
         <p>{value}</p>
