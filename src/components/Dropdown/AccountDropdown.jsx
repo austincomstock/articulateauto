@@ -5,7 +5,6 @@ export const AccountDropdown = () => {
     { item: "My Account" },
     { item: "Sign In" },
     { item: "Register" },
-    { item: "Settings" },
   ];
 
   const [value, setValue] = useState("");
