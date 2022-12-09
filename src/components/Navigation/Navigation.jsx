@@ -7,15 +7,15 @@ import { CartDropdown } from "../Dropdown/CartDropdown";
 
 export const Navigation = () => {
   return (
-    // <div className="Nav1">
-    <ul className="NavUL">
-      <li className="NavLI">
-        <VscAccount /> <AccountDropdown />
-      </li>
-      <li className="NavLI">
-        <BsCart3 /> <CartDropdown />
-      </li>
-    </ul>
-    // </div>
+    <div className="Nav1">
+      <ul className="NavUL">
+        <li className="NavLI">
+          <VscAccount /> <AccountDropdown />
+        </li>
+        <li className="NavLI">
+          <BsCart3 /> <CartDropdown />
+        </li>
+      </ul>
+    </div>
   );
 };
