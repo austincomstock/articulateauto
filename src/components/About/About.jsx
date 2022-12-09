@@ -22,11 +22,6 @@ export const About = () => {
           </Link>
         </li>
         <li className="AboutLI">
-          <Link to="/protection" className="AboutLink">
-            <MdSecurity /> Interior & Exterior Protection
-          </Link>
-        </li>
-        <li className="AboutLI">
           <Link to="/toyota" className="AboutLink">
             <SiToyota /> Toyota
           </Link>
@@ -39,6 +34,11 @@ export const About = () => {
         <li className="AboutLI">
           <Link to="/chevrolet" className="AboutLink">
             <SiChevrolet /> Chevrolet
+          </Link>
+        </li>
+        <li className="AboutLI">
+          <Link to="/protection" className="AboutLink">
+            <MdSecurity /> Interior & Exterior Protection
           </Link>
         </li>
         <li className="AboutLI">
