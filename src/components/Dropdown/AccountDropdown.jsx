@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { SignIn } from "./../SignIn/SignIn";
+import { Register } from "./../Register/Register";
 
 export const AccountDropdown = () => {
   const accountOptions = [
@@ -12,6 +14,17 @@ export const AccountDropdown = () => {
   const handleChange = (event) => {
     setValue(event.target.value);
   };
+
+  // accountDropdownSelection function
+  function accountDropdownSelection() {
+    if (value === "Sign In") {
+      return <SignIn />;
+    } else if (value === "Register") {
+      return <Register />;
+    } else {
+      return value;
+    }
+  }
 
   return (
     <div className="ADrop">
@@ -28,7 +41,7 @@ export const AccountDropdown = () => {
           )}
         </select>
       </label>
-      <p>{value}</p>
+      <p>{accountDropdownSelection()}</p>
     </div>
   );
 };
