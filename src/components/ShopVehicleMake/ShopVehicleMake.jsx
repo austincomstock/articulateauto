@@ -10,7 +10,7 @@ export const ShopVehicleMake = () => {
     { label: "Chevrolet", value: "Chevrolet" },
     { label: "GMC", value: "GMC" },
     { label: "Hyundai", value: "Hyundai" },
-    { label: "Volkswagon", value: "Volkswagon" },
+    { label: "Volkswagen", value: "Volkswagen" },
   ];
 
   const [value, setValue] = useState("");
