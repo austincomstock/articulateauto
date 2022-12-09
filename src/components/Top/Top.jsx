@@ -12,8 +12,8 @@ export const Top = () => {
           <h1 className="TopH1">Articulate Auto</h1>
           <img className="TopImg" src={ArtLogo} alt="Articulate Logo" />
         </div>
-        <Navigation />
         <Search />
+        <Navigation />
       </div>
     </>
   );
