@@ -3,6 +3,7 @@ import "./About.css";
 import { Link, Outlet } from "react-router-dom"; // REACT-ROUTER DOCUMENTATION https://github.com/remix-run/react-router/blob/main/docs/getting-started/tutorial.md
 
 // REACT-ICONS IMPORTS
+import { AiOutlineHome } from "react-icons/ai";
 import { MdSecurity } from "react-icons/md";
 import { SiToyota } from "react-icons/si";
 import { SiFord } from "react-icons/si";
@@ -17,7 +18,7 @@ export const About = () => {
       <ul className="AboutUL">
         <li className="AboutLI">
           <Link to="/" className="AboutLink">
-            Home
+            <AiOutlineHome /> Home
           </Link>
         </li>
         <li className="AboutLI">
