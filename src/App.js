@@ -7,7 +7,6 @@ import { About } from "./components/About/About";
 import { VisualMedia } from "./components/VisualMedia/VisualMedia";
 import { ShopVehicle } from "./components/ShopVehicle/ShopVehicle";
 import { Contact } from "./components/Contact/Contact";
-import { MyAccount } from "./components/MyAccount/MyAccount";
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
       <VisualMedia />
       <ShopVehicle />
       <Contact />
-      <MyAccount />
     </div>
   );
 }
