@@ -41,7 +41,7 @@ export const AccountDropdown = () => {
           )}
         </select>
       </label>
-      <p>{accountDropdownSelection()}</p>
+      {accountDropdownSelection()}
     </div>
   );
 };
