@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { Cart } from "../Cart/Cart";
+import { Checkout } from "./../Checkout/Checkout";
 
 export const CartDropdown = () => {
   const cartOptions = [
@@ -12,6 +14,17 @@ export const CartDropdown = () => {
   const handleChange = (event) => {
     setValue(event.target.value);
   };
+
+  // cartDropdownSelection function
+  function cartDropdownSelection() {
+    if (value === "View Cart") {
+      return <Cart />;
+    } else if (value === "Checkout") {
+      return <Checkout />;
+    } else {
+      return value;
+    }
+  }
 
   return (
     <div className="CDrop">
@@ -28,7 +41,7 @@ export const CartDropdown = () => {
           )}
         </select>
       </label>
-      <p>{value}</p>
+      {cartDropdownSelection()}
     </div>
   );
 };
