@@ -1,21 +1,19 @@
 .ShopVehicle1 {
-    background-color: #adb5c3;
-    color: white;
-    border: solid #141515;
-    margin-bottom: 2px;
+  background-color: #adb5c3;
+  color: white;
+  border: solid #141515;
+  margin-bottom: 2px;
+  min-height: 150px;
 }
 
-
 .ShopVehicleH3 {
-    margin: 5px;
-    text-align: center;
+  margin: 5px;
+  text-align: center;
 }
 
 .ShopVehicle2 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
 }
-
-
